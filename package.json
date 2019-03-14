@@ -1,5 +1,5 @@
 {
-  "name": "red-contrib-redis-ssl-suport",
+  "name": "node-red-contrib-redis-ssl-suport",
   "version": "1.0.0",
   "description": "Node Red Redis Client with SSL/TLS support",
   "main": "index.js",
