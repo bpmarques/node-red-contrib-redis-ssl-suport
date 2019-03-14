@@ -1,0 +1,32 @@
+{
+  "name": "red-contrib-redis-ssl-suport",
+  "version": "1.0.0",
+  "description": "Node Red Redis Client with SSL/TLS support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpmarques/node-red-contrib-redis-ssl-suport.git"
+  },
+  "keywords": [
+    "redis",
+    "node-red",
+    "node"
+  ],
+  "node-red": {
+    "nodes": {
+      "redis": "redis.js"
+    }
+  },
+  "author": "Bruno Peck Marques <brunopeckmarques@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpmarques/node-red-contrib-redis-ssl-suport/issues"
+  },
+  "homepage": "https://github.com/bpmarques/node-red-contrib-redis-ssl-suport#readme",
+  "dependencies": {
+    "ioredis": "^4.6.2"
+  }
+}
