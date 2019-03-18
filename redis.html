@@ -31,7 +31,7 @@
     });
 </script>
 
-<script type="text/x-red" data-template-name="redis-config">
+<script type="text/x-red" data-template-name="redis-cfg">
     <div class="form-row">
         <label for="node-config-input-host"><i class="fa fa-globe"></i> Host</label>
         <input type="text" id="node-config-input-host">
@@ -66,7 +66,7 @@
         defaults: {
             server: {
                 value: "",
-                type: "redis-config"
+                type: "redis-cfg"
             },
             command: {
                 value: "set"
@@ -84,7 +84,7 @@
     });
 </script>
 
-<script type="text/x-red" data-template-name="redis-command">
+<script type="text/x-red" data-template-name="redis-cmd">
     <div class="form-row">
         <label for="node-input-server"><i class="fa fa-globe"></i> Server</label>
         <input type="text" id="node-input-server" placeholder="Server">
