@@ -7,7 +7,7 @@ module.exports = function(RED) {
         this.port = n.port;
         this.dbase = n.dbase;
         this.pass = n.pass;
-        this.cert = Buffer.from(n.cert, 'base64').toString();
+        this.cert = n.cert ? Buffer.from(n.cert, 'base64').toString() : undefined;
     }
     RED.nodes.registerType("redis-config", RedisConfig);
 
