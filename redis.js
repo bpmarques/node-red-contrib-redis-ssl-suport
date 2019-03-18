@@ -9,7 +9,7 @@ module.exports = function(RED) {
         this.pass = n.pass;
         this.cert = n.cert ? Buffer.from(n.cert, 'base64').toString() : undefined;
     }
-    RED.nodes.registerType("redis-config", RedisConfig);
+    RED.nodes.registerType("redis-cfg", RedisConfig);
 
     function RedisCmd(n) {
         RED.nodes.createNode(this, n);
@@ -49,7 +49,7 @@ module.exports = function(RED) {
         });
 
     }
-    RED.nodes.registerType("redis-command", RedisCmd);
+    RED.nodes.registerType("redis-cmd", RedisCmd);
 
     function _setEnv(config) {
         var result = [];
